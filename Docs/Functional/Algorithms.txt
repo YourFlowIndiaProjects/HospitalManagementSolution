@@ -1,0 +1,21 @@
+Class Login() {
+
+	Public :
+		String UserId;
+		String UserPassword;
+
+	Private :
+		Void Credentials(Id, Password);
+		Bool CheckValidity();
+		Int NumberOfAttempts();
+
+}
+
+Login::Credentials(Id, Password) {
+
+	Print("Enter Id : ");
+	Scan("%c", UserId);
+
+	Print("Enter Id : ");
+	Scan("%c", UserId);
+		
